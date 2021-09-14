@@ -1,58 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 *{
+	margin: 0 auto;
+	padding: 0;
 	box-sizing:	border-box;
+	font-family: 'Inconsolata', monospace;
 }
 
-li:hover{
-	color: white;
-	background-color:green;
+#menu-h{
+	font-weight: bold;
+	background-color: rgb(26, 25, 25);
 }
 
-.cabecalho img{
-	width: 70px;
-	height: auto;
+#menu-h ul{
+	max-width: 1300px;
+	list-style: none;
+	padding: 0;
+	
 }
 
-.container { 
-	width: 720px;
-	margin-right: auto;  
-	margin-left: auto;
-	/* margin: 0 auto; */
-	display: flex;  flex-wrap: wrap;
-	/*quebra linha*/
+#menu-h ul li{
+	display: inline;
+	
 }
 
-.cabecalho {  
-	order: 1;
-	border-bottom: 1px solid #000000;  
-	padding: 10px;
-	margin-bottom: 20px;
-	background-color:green;
-	width: 100%;  
-	display: flex;  
+#menu-h ul li a{
+	color: rgb(255, 255, 255);
+	padding: 20px ;
+	display: inline-block;
+	text-decoration: none;
+	transition: background.6s;
+	
 }
 
-.menu {  
-	width: 25%; 
-	order: 2;  
-	padding: 5px;  
-	font-size: 110%;
-    background-color: lightgreen;
+#menu-h ul li a:hover{
+	background-color: rgb(186, 187, 202);
+	
 }
 
-.corpo {  
-	width: 75%;
-	order: 3;
-	border-right: 1px dashed #000000;  
-	padding: 10px;
+#menu-h ul li:last-child a{
+	float: right;
+	background-color:rgb(255, 255, 255);
+
 }
-
-.rodape {  
-	order: 4;
-	border-top: 1px solid #000000;  
-	padding: 30px;
-	margin-top: 20px;
-	width: 100%;  
-	display: flex;  
-}
-
-
