@@ -9,7 +9,7 @@
 
 #menu-h{
 	font-weight: bold;
-	background-color: rgb(26, 25, 25);
+	background-color: rgb(49, 82, 63);
 }
 
 #menu-h ul{
@@ -29,17 +29,31 @@
 	padding: 20px ;
 	display: inline-block;
 	text-decoration: none;
-	transition: background.6s;
+	transition: background.30s;
 	
 }
 
 #menu-h ul li a:hover{
-	background-color: rgb(186, 187, 202);
+	background-color: rgb(77, 133, 100);
 	
 }
 
 #menu-h ul li:last-child a{
-	float: right;
-	background-color:rgb(255, 255, 255);
+	align-items: right;
+	background-color:rgb(49, 82, 63);
 
+}
+.rodape {  
+	align-items: center;
+	order: 4;  
+	padding: 50px 25px 50px;
+	width: 100%;  
+	display: flex;  
+	background-color: rgb(49, 82, 63);
+	opacity: 100%;
+}
+
+#imagem-de-fundo{
+	opacity: 50%;
+	width: 1832	px;
 }
