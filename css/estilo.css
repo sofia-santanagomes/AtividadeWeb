@@ -6,6 +6,16 @@
 	box-sizing:	border-box;
 	font-family: 'Inconsolata', monospace;
 }
+body{
+	background-image: url("../img/background-img.jpg");
+	background-attachment: fixed;
+}
+
+#main-logo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #menu-h{
 	font-weight: bold;
