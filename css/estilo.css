@@ -30,6 +30,9 @@ p{
 	padding-bottom: 20px;
 }
 
+li{
+	padding-left: 20;
+}
 
 .container{
 	width: 1700px;;
