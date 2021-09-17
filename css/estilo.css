@@ -9,20 +9,60 @@
 body{
 	background-image: url("../img/background-img.jpg");
 	background-attachment: fixed;
+	
+	
+}
+
+h1{
+	padding: 20px;
+	text-align: center;
+}
+
+h2{
+	padding-left: 60px;
+}
+
+p{
+	font-size: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+
+.container{
+	width: 1700px;;
+	margin-right: auto;  
+	margin-left: auto;
+	/*<img src="https://s.aficionados.com.br/imagens/stardew9-0.jpg">*/
+	display: flex;  
+	flex-wrap: wrap;
+	/*quebra linha*/
+
+}
+
+.corpo-imag{
+	size: 60px;
+	align-items: center;
 }
 
 #main-logo{
+	padding-bottom: 30px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
+	transition: background.30s;
 }
 
 #menu-h{
 	font-weight: bold;
-	background-color: rgb(49, 82, 63);
+	background-color: #E0A100;
+	
 }
 
 #menu-h ul{
+	font-size:23px;
 	max-width: 1300px;
 	list-style: none;
 	padding: 0;
@@ -36,31 +76,42 @@ body{
 
 #menu-h ul li a{
 	color: rgb(255, 255, 255);
-	padding: 20px ;
+	padding: 10px ;
 	display: inline-block;
 	text-decoration: none;
 	transition: background.30s;
-	
+	border-radius: 50;
 }
 
 #menu-h ul li a:hover{
-	background-color: rgb(77, 133, 100);
-	
+	background-color: #eeb82f;
 }
 
 #menu-h ul li:last-child a{
 	align-items: right;
-	background-color:rgb(49, 82, 63);
+	background-color:#E0A100;
 
 }
+
+.li{
+	align-items: right;
+}
+
+.corpo{
+	background:#d4e5f5;
+	opacity:0.9;
+	font-size: 50;
+}
+
 .rodape {  
+	color: rgb(255, 255, 255);
+	font-weight: bold;
 	align-items: center;
 	order: 4;  
 	padding: 50px 25px 50px;
 	width: 100%;  
 	display: flex;  
-	background-color: rgb(49, 82, 63);
-	opacity: 100%;
+	background-color: #E0A100;
 }
 
 #imagem-de-fundo{
